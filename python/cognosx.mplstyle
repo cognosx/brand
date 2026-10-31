@@ -1,0 +1,49 @@
+# CognosX matplotlib style. Use: plt.style.use("cognosx.mplstyle")
+# Colours from the CognosX charter (palette.json). Categorical order is fixed: never cycle or reorder.
+
+font.family: sans-serif
+font.sans-serif: Inter, Helvetica Neue, Arial, DejaVu Sans
+font.monospace: IBM Plex Mono, DejaVu Sans Mono
+font.size: 10
+
+text.color: 141414
+axes.labelcolor: 5c5c5c
+axes.edgecolor: 5c5c5c
+axes.linewidth: 0.8
+axes.titlesize: 11
+axes.titleweight: bold
+axes.titlelocation: left
+axes.titlecolor: 141414
+axes.labelsize: 10
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: True
+axes.axisbelow: True
+axes.facecolor: ffffff
+axes.prop_cycle: cycler('color', ['C98000', '2F64B5', 'C24A2E', '0E9A7E', '8A4FB0'])
+
+grid.color: e6e3dd
+grid.linewidth: 0.8
+
+xtick.color: 5c5c5c
+ytick.color: 5c5c5c
+xtick.labelsize: 9
+ytick.labelsize: 9
+
+lines.linewidth: 2
+lines.markersize: 6
+patch.edgecolor: ffffff
+
+legend.frameon: False
+legend.fontsize: 9
+
+figure.facecolor: ffffff
+figure.dpi: 110
+figure.titlesize: 12
+figure.titleweight: bold
+
+savefig.dpi: 300
+savefig.bbox: tight
+savefig.facecolor: ffffff
+
+image.cmap: cividis

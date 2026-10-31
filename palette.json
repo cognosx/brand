@@ -1,0 +1,35 @@
+{
+  "name": "CognosX",
+  "tagline": "Let science data speak.",
+  "brand": {
+    "black": "#0a0a0a",
+    "ink": "#141414",
+    "muted": "#5c5c5c",
+    "line": "#e6e3dd",
+    "paper": "#ffffff",
+    "soft": "#f7f5f0",
+    "amber": "#FEA500",
+    "amber_ink": "#9a5b00"
+  },
+  "chart_light": {
+    "surface": "#ffffff",
+    "categorical": ["#C98000", "#2F64B5", "#C24A2E", "#0E9A7E", "#8A4FB0"],
+    "neutral": "#9a9890",
+    "grid": "#e6e3dd",
+    "axis": "#5c5c5c",
+    "sequential_amber": ["#fbe9c7", "#f6cf85", "#eeb043", "#d98e0b", "#b87500", "#8f5a00", "#5f3c00"]
+  },
+  "chart_dark": {
+    "surface": "#0a0a0a",
+    "categorical": ["#CC8200", "#5A88D0", "#D9664C", "#1FAA8A", "#9D78CE"],
+    "neutral": "#8a8a8a",
+    "grid": "#2a2a2a",
+    "axis": "#bdbdbd"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "mono": "IBM Plex Mono",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+  },
+  "validation": "Categorical sets checked with a colour-vision-deficiency validator (lightness band, chroma, CVD and normal-vision separation, contrast) on 31 Oct 2026: all checks pass in fixed order."
+}

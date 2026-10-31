@@ -1,0 +1,78 @@
+# CognosX brand for Quarto (websites, reports, revealjs slides, dashboards, Typst PDF).
+# Put this file at the project root as _brand.yml, or point to it with `brand: path/_brand.yml`.
+meta:
+  name: CognosX
+  link:
+    home: https://cognosx.ca
+    github: https://github.com/cognosx
+    linkedin: https://www.linkedin.com/in/maxime-descartes-m-f-a65a2b83/
+
+logo:
+  images:
+    on-dark: logos/logo-light.png      # white "CognosX" + amber "X." for dark backgrounds
+    on-light: logos/logo-dark.png      # dark text for light backgrounds
+    mark: logos/favicon.png
+  small: mark
+  medium:
+    light: on-light
+    dark: on-dark
+  large:
+    light: on-light
+    dark: on-dark
+
+color:
+  palette:
+    black: "#0a0a0a"
+    ink: "#141414"
+    muted: "#5c5c5c"
+    line: "#e6e3dd"
+    paper: "#ffffff"
+    soft: "#f7f5f0"
+    amber: "#FEA500"
+    amber-ink: "#9a5b00"
+    chart-amber: "#C98000"
+    chart-blue: "#2F64B5"
+    chart-brick: "#C24A2E"
+    chart-teal: "#0E9A7E"
+    chart-violet: "#8A4FB0"
+  foreground: ink
+  background: paper
+  primary: amber-ink
+  secondary: muted
+  tertiary: soft
+  light: soft
+  dark: black
+  info: chart-blue
+  success: chart-teal
+  warning: amber
+  danger: chart-brick
+
+typography:
+  fonts:
+    - family: Inter
+      source: google
+      weight: [400, 500, 600, 700, 800]
+    - family: IBM Plex Mono
+      source: google
+      weight: [400, 500]
+  base:
+    family: Inter
+    size: 17px
+    line-height: 1.65
+  headings:
+    family: Inter
+    weight: 700
+    color: ink
+    line-height: 1.15
+  monospace:
+    family: IBM Plex Mono
+  link:
+    color: amber-ink
+    decoration: underline
+
+defaults:
+  bootstrap:
+    defaults:
+      border-radius: 10px
+      navbar-bg: "#0a0a0a"
+      footer-bg: "#0a0a0a"
